@@ -1,1 +1,2 @@
 # Stock-Desktop-Notifier
+This stock notification program was developed using Tkinter for the GUI and the Financial Modeling Prep API to retrieve stock data. When the user enters a stock ticker and submits the input, the program retrieves the current stock data for that ticker and displays a notification with the current price, today's high, today's low, and the previous closing price. If the user enters an invalid ticker, the program will display an error message in the notification.
