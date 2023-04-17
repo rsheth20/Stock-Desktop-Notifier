@@ -14,7 +14,7 @@ from plyer import notification
 def get_stock_data(ticker):
 
     # Use the API key and the stock ticker to get the stock data
-    API_KEY = "cf11d6a9d5d03f2ade358f74a882c5c0"
+    API_KEY = "API_KEY"
     API_URL = "https://financialmodelingprep.com/api/v3/quote/"
     stock_data = requests.get(API_URL + ticker, params={"apikey": API_KEY}).json()
 
